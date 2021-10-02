@@ -1,14 +1,14 @@
 <template>
   <div class="fadeInContent">
-    <AboutBody />
+    <SimulateBody />
   </div>
 </template>
 
 <script>
-  import AboutBody from "../components/AboutBody.vue";
+  import SimulateBody from "../components/SimulateBody.vue";
   export default {
     components: {
-      AboutBody,
+      SimulateBody,
     },
   };
 </script>

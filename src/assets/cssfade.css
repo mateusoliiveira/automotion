@@ -1,0 +1,14 @@
+.fadeInContent {
+  transition: background-color 0.25s linear;
+  animation-name: showingData;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+@keyframes showingData {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

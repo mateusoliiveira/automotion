@@ -1,14 +1,14 @@
 <template>
   <div class="fadeInContent">
-    <AboutBody />
+    <LocationStoreBody />
   </div>
 </template>
 
 <script>
-  import AboutBody from "../components/AboutBody.vue";
+  import LocationStoreBody from "../components/LocationStoreBody.vue";
   export default {
     components: {
-      AboutBody,
+      LocationStoreBody,
     },
   };
 </script>
